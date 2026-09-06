@@ -1,0 +1,12 @@
+# Release and usability gates
+
+1. Run the supplied Windows/macOS CI and resolve native build failures before packaging. Desktop application icons are included; regenerate them from the approved idle frame if artwork changes. Pin Cargo.lock from the successful build.
+2. Bundle a reproducible Python sidecar with OCR native dependencies and license notices. Test on a fresh Windows 11 machine and both supported macOS architectures; do not depend on a developer virtualenv path.
+3. Evaluate English → Mandarin → Cantonese/Hokkien with fluent elderly speakers and caregivers. Include appointment changes, negative instructions, dosages, utility amounts, due dates, names and mixed English/Chinese. Record source, expected facts, detected omissions, dialect naturalness and reviewer sign-off using synthetic or consented documents.
+4. Run 5–8 observed usability sessions per dialect. Measure unaided select/read/replay completion, misclicks, cancel recovery, fatigue, font preferences and comprehension. Do not report this as completed until sessions occur.
+5. Measure p50/p95 select-to-first-token, select-to-complete and audio-start on representative older hardware. Two sequential model stages and buffered audio cannot be assumed to meet the 1.5 s / 2 s targets. Measure whole-process-tree memory, not just the Tauri webview.
+6. Test 100/125/150/200% scaling, negative monitor coordinates, display disconnection, permission denial/revocation, hotkey conflicts, locked/protected windows, dragging outside monitor, repeated Begin/Stop, and long text. Verify a click-through mascot always has a discoverable recovery path.
+7. Check keyboard focus, screen reader output, reduced motion, 48px controls, primary translation >=26.67px (20pt), and >=7:1 text contrast with actual rendered colors. Whole-app WCAG AAA is not certified by individual color checks.
+8. Configure signing in repository secrets: Apple Developer ID certificate/password, signing identity, Apple notarization credentials; Windows signing service/certificate. Never commit them. Build .app/.dmg and .msi/NSIS installers using tauri-action in a gated release workflow after these inputs exist.
+9. Add tauri-plugin-updater only with a real HTTPS endpoint and embedded public key, sign artifacts with the corresponding private key, and test rollback/failure handling. Publish a versioned update manifest. Model/lexicon updates require their own signed, hashed, versioned package verification and atomic swap; they are not covered merely by updating the app executable.
+

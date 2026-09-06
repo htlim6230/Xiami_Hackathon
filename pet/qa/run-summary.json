@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "spriteVersionNumber": 2,
+  "package": "C:\\Users\\Toffee\\Documents\\Codex\\2026-09-05\\hatch-pet-c-users-toffee-codex\\outputs\\xiami-pet",
+  "atlas_sha256": "490ca70fc91a8ee2c9137675b8534572ec50604f4abac39f019702353b70d398",
+  "visual_qa": "pass",
+  "blind_qa": "pass with reviewed intermediate warnings",
+  "installed": true,
+  "installation_path": "C:\\Users\\Toffee\\.codex\\pets\\xiami"
+}

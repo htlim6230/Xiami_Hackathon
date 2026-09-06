@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "row": "running-left",
+  "source": "approved cleaned running-right atlas row",
+  "method": "bundled derive_running_left_from_running_right.py on extracted 192px slots",
+  "bit_exact_mirror_verified": true,
+  "timing_order_preserved": true,
+  "cleanup": "reuses only already-despilled pixels; no second cleanup pass",
+  "look_cells_unchanged": true
+}

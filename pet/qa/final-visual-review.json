@@ -1,0 +1,6 @@
+{
+  "visual_qa": "pass",
+  "reviewed_by": "independent final_qa worker",
+  "qa_note": "Repaired left row has no detached fragments or clipping; all poses complete and cadence-correct. All16 directions pass with reviewed intermediate blind warnings.",
+  "repair_rows": []
+}

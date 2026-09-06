@@ -1,0 +1,6 @@
+{
+  "identifier": "main",
+  "description": "Xiami local controls only",
+  "windows": ["main", "selection"],
+  "permissions": ["core:default", "core:window:allow-start-dragging"]
+}

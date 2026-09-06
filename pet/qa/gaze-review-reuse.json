@@ -1,0 +1,6 @@
+{
+  "ok": true,
+  "reason": "Only running-left row changed after blind review. The complete neutral-plus-16 direction QA image is pixel-identical before and after repair. Original randomized blind sheet/key and votes remain applicable.",
+  "direction_view_sha256": "e861020c0907395c539791da8619357b46ee935876598331751ce09cf30d5533",
+  "final_atlas_sha256": "490ca70fc91a8ee2c9137675b8534572ec50604f4abac39f019702353b70d398"
+}

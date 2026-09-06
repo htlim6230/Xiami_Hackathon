@@ -1,0 +1,4 @@
+Pillow>=11,<13
+pytesseract>=0.3.13,<0.4
+edge-tts>=7,<8
+pycantonese>=3.4,<4

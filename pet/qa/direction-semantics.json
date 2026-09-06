@@ -1,0 +1,102 @@
+{
+  "reviewed_by": "independent final_qa worker",
+  "directions": {
+    "000": {
+      "verdict": "pass",
+      "expected": "up",
+      "observed": "up",
+      "reason": "Muzzle points up; pupils are high."
+    },
+    "022.5": {
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "up-right",
+      "reason": "Nose right of center and above; both axes agree."
+    },
+    "045": {
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "up-right",
+      "reason": "Nose clearly right and elevated."
+    },
+    "067.5": {
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "up-right",
+      "reason": "Right-facing nose remains elevated."
+    },
+    "090": {
+      "verdict": "pass",
+      "expected": "right",
+      "observed": "right",
+      "reason": "Muzzle projects screen-right."
+    },
+    "112.5": {
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "down-right",
+      "reason": "Nose right and lowered."
+    },
+    "135": {
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "down-right",
+      "reason": "Nose right of center and below."
+    },
+    "157.5": {
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "down-right",
+      "reason": "Near-down view remains slightly right."
+    },
+    "180": {
+      "verdict": "pass",
+      "expected": "down",
+      "observed": "down",
+      "reason": "Muzzle points down; pupils low."
+    },
+    "202.5": {
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "down-left",
+      "reason": "Nose left and below center."
+    },
+    "225": {
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "down-left",
+      "reason": "Nose clearly left and lowered."
+    },
+    "247.5": {
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "down-left",
+      "reason": "Left-facing muzzle has downward pitch."
+    },
+    "270": {
+      "verdict": "pass",
+      "expected": "left",
+      "observed": "left",
+      "reason": "Muzzle projects screen-left."
+    },
+    "292.5": {
+      "verdict": "pass",
+      "expected": "up-left",
+      "observed": "up-left",
+      "reason": "Nose left and elevated."
+    },
+    "315": {
+      "verdict": "pass",
+      "expected": "up-left",
+      "observed": "up-left",
+      "reason": "Nose clearly left and above."
+    },
+    "337.5": {
+      "verdict": "pass",
+      "expected": "up-left",
+      "observed": "up-left",
+      "reason": "Near-up view remains slightly left and closes coherently."
+    }
+  },
+  "review_notes": "Seven intermediate axis ambiguities in blind votes accepted by labeled semantic and loop review. All cardinals pass. Uniform y201 gaps are natural feet/tail space. Continuity outliers are normal pose progression, no major snap."
+}
